@@ -9,7 +9,9 @@ SOURCE = rvv_test.c
 # -march=rv64gcv: Enables RISC-V 64-bit general (g), and Vector (v) extensions.
 # -O2: Optimization level to encourage vectorization.
 # -g: Include debugging information (essential for GDB).
-CFLAGS = -march=rv64gcv -O2 -g
+CFLAGS = -march=rv64imafdcv -mabi=lp64d -O2 -g
+# -D__riscv_vector -std=gnu11
+# -march=rv64imafdcv_zvl256b -mabi=lp64
 
 # Default target: Compile the program
 all: $(TARGET)
