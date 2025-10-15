@@ -1,0 +1,172 @@
+
+=================================================================
+SLEEF Math Library Benchmark
+=================================================================
+Iterations per function: 100000000
+Scalar input pool size: 10000000
+=================================================================
+
+=================================================================
+Trigonometric Functions (Double Precision)
+=================================================================
+
+Sleef_sin_u10                 :     12.434 ns/call  (sum=-2954.51)
+sin (reference)               :     21.625 ns/call  (sum=-2954.51)
+
+Sleef_cos_u10                 :     15.006 ns/call  (sum=-44589.7)
+cos (reference)               :     21.541 ns/call  (sum=-44589.7)
+
+Sleef_tan_u10                 :     20.772 ns/call  (sum=-9.58399e+06)
+tan (reference)               :     22.103 ns/call  (sum=-9.58399e+06)
+
+=================================================================
+Trigonometric Functions (Single Precision)
+=================================================================
+
+Sleef_sinf_u10                :     13.066 ns/call  (sum=7453.88)
+sinf (reference)              :     10.744 ns/call  (sum=7453.87)
+
+Sleef_cosf_u10                :     16.247 ns/call  (sum=-63902.1)
+cosf (reference)              :     10.685 ns/call  (sum=-63902.1)
+
+Sleef_tanf_u10                :     23.750 ns/call  (sum=-1.13067e+09)
+tanf (reference)              :     10.060 ns/call  (sum=-1.13067e+09)
+
+=================================================================
+Exponential and Logarithm Functions (Double Precision)
+=================================================================
+
+Sleef_exp_u10                 :      9.468 ns/call  (sum=inf)
+exp (reference)               :     10.213 ns/call  (sum=inf)
+
+Sleef_log_u10                 :     14.821 ns/call  (sum=6.89776e+10)
+log (reference)               :      6.620 ns/call  (sum=6.89776e+10)
+
+Sleef_log10_u10               :     15.801 ns/call  (sum=2.99566e+10)
+log10 (reference)             :     12.320 ns/call  (sum=2.99566e+10)
+
+Sleef_log2_u10                :     17.583 ns/call  (sum=9.95136e+10)
+log2 (reference)              :      7.324 ns/call  (sum=9.95136e+10)
+
+Sleef_exp2_u10                :      7.609 ns/call  (sum=7.66366e+305)
+exp2 (reference)              :     11.315 ns/call  (sum=7.66366e+305)
+
+Sleef_exp10_u10               :     10.389 ns/call  (sum=7.25565e+304)
+exp10 (reference)             :      7.951 ns/call  (sum=7.25565e+304)
+
+=================================================================
+Exponential and Logarithm Functions (Single Precision)
+=================================================================
+
+Sleef_expf_u10                :      9.848 ns/call  (sum=inf)
+expf (reference)              :      6.297 ns/call  (sum=inf)
+
+Sleef_logf_u10                :     13.306 ns/call  (sum=2.14748e+09)
+logf (reference)              :      5.072 ns/call  (sum=2.14748e+09)
+
+Sleef_log10f_u10              :     14.303 ns/call  (sum=1.07374e+09)
+log10f (reference)            :      7.333 ns/call  (sum=1.07374e+09)
+
+Sleef_log2f_u10               :     14.420 ns/call  (sum=2.14748e+09)
+log2f (reference)             :      5.231 ns/call  (sum=2.14748e+09)
+
+Sleef_exp2f_u10               :      6.788 ns/call  (sum=9.04433e+35)
+exp2f (reference)             :      4.171 ns/call  (sum=9.04433e+35)
+
+Sleef_exp10f_u10              :     12.443 ns/call  (sum=inf)
+exp10f (reference)            :      4.383 ns/call  (sum=inf)
+
+=================================================================
+Power Functions (Double Precision)
+=================================================================
+
+Sleef_pow_u10                 :     60.434 ns/call  (sum=nan)
+pow (reference)               :     17.022 ns/call  (sum=nan)
+
+Sleef_sqrt_u05                :      9.660 ns/call  (sum=6.66661e+157)
+sqrt (reference)              :      2.689 ns/call  (sum=6.66661e+157)
+
+Sleef_cbrt_u10                :     37.551 ns/call  (sum=4.91244e+37)
+cbrt (reference)              :     20.149 ns/call  (sum=4.91244e+37)
+
+=================================================================
+Power Functions (Single Precision)
+=================================================================
+
+Sleef_powf_u10                :     65.873 ns/call  (sum=nan)
+powf (reference)              :     14.523 ns/call  (sum=nan)
+
+Sleef_sqrtf_u05               :      8.433 ns/call  (sum=3.09485e+26)
+sqrtf (reference)             :      2.684 ns/call  (sum=3.09485e+26)
+
+Sleef_cbrtf_u10               :     37.038 ns/call  (sum=-1.76565e+09)
+cbrtf (reference)             :      8.268 ns/call  (sum=-1.76565e+09)
+
+=================================================================
+Inverse Trigonometric Functions (Double Precision)
+=================================================================
+
+Sleef_asin_u10                :     17.046 ns/call  (sum=-32709.1)
+asin (reference)              :     19.159 ns/call  (sum=-32709.1)
+
+Sleef_acos_u10                :     19.092 ns/call  (sum=1.57112e+08)
+acos (reference)              :     19.684 ns/call  (sum=1.57112e+08)
+
+Sleef_atan_u10                :     22.298 ns/call  (sum=2355.47)
+atan (reference)              :     15.039 ns/call  (sum=2355.47)
+
+Sleef_atan2_u10               :     26.531 ns/call  (sum=-7.85346e+07)
+atan2 (reference)             :     22.843 ns/call  (sum=-7.85346e+07)
+
+=================================================================
+Hyperbolic Functions (Double Precision)
+=================================================================
+
+Sleef_sinh_u10                :     27.197 ns/call  (sum=6.18216e+305)
+sinh (reference)              :     14.227 ns/call  (sum=6.18216e+305)
+
+Sleef_cosh_u10                :     26.705 ns/call  (sum=inf)
+cosh (reference)              :     13.318 ns/call  (sum=inf)
+
+Sleef_tanh_u10                :     34.791 ns/call  (sum=7866.54)
+tanh (reference)              :     24.625 ns/call  (sum=7866.54)
+
+Sleef_asinh_u10               :     24.078 ns/call  (sum=inf)
+asinh (reference)             :      9.859 ns/call  (sum=6.90469e+10)
+
+Sleef_acosh_u10               :     12.093 ns/call  (sum=inf)
+acosh (reference)             :      9.634 ns/call  (sum=6.90469e+10)
+
+Sleef_atanh_u10               :     33.079 ns/call  (sum=-2118.88)
+atanh (reference)             :     30.223 ns/call  (sum=-2118.88)
+
+=================================================================
+Hyperbolic Functions (Single Precision)
+=================================================================
+
+Sleef_sinhf_u10               :     30.670 ns/call  (sum=nan)
+sinhf (reference)             :     13.895 ns/call  (sum=nan)
+
+Sleef_coshf_u10               :     30.687 ns/call  (sum=inf)
+coshf (reference)             :     13.910 ns/call  (sum=inf)
+
+Sleef_tanhf_u10               :     33.046 ns/call  (sum=4854)
+tanhf (reference)             :      8.133 ns/call  (sum=4853.95)
+
+Sleef_asinhf_u10              :     47.573 ns/call  (sum=1.07374e+09)
+asinhf (reference)            :      9.331 ns/call  (sum=1.07374e+09)
+
+Sleef_acoshf_u10              :     41.356 ns/call  (sum=1.07374e+09)
+acoshf (reference)            :     10.066 ns/call  (sum=1.07374e+09)
+
+Sleef_atanhf_u10              :     28.955 ns/call  (sum=-61717.7)
+atanhf (reference)            :     11.117 ns/call  (sum=-61717.7)
+
+=================================================================
+Benchmark Complete
+=================================================================
+
+
+real    2m22.706s
+user    2m21.531s
+sys     0m0.550s
