@@ -32,3 +32,6 @@
 | LLC-load-misses | ❌ | taken_cond_br_mispred | ✔️ | bus_fence_inst | ✔️ |  |  |
 | LLC-stores | ❌ | uncond_br_inst | ✔️ | csr_inst | ✔️ |  |  |
 | LLC-store-misses | ❌ | uncond_br_mispred | ✔️ | div_inst | ✔️ |  |  |
+
+Reference: [SpacemiT Perf Usage Note](https://bianbu.spacemit.com/en/development/perf/)
+
